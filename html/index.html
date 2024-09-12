@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Juego Ahorcado</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Juego Ahorcado</h1>
+        <div class="hangman-container">
+            <img id="hangman-image" src="/media/01.png" alt="Ahorcado">
+        </div>
+        <div class="word-container">
+            <p id="word">_ _ _ _ _ _</p>
+        </div>
+        <div id="input-container">
+            <input type="text" id="input" maxlength="1" autofocus>
+            <button id="tryBtn">Intentar</button>
+        </div>
+        <p id="remaining">Intentos restantes: 6</p>
+        <p id="message"></p>
+        <button id="resetBtn">Reiniciar</button>
+    </div>
+    <script src="/scripts/script.js"></script>
+
+</body>
+</html>
